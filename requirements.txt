@@ -1,2 +1,7 @@
 streamlit
 numpy
+Bio
+scipy
+matplotlib
+plotly
+time
