@@ -35,7 +35,8 @@ def upgma(sequences):
         st.success('Done!')
         st.pyplot(fig)
         
-st.title("Phylogenetics")
+st.title("Phylogenetic Tree Application")
+st.subtitle("Distance Tree")
 st.write("This web application is for the phylogenetic analysis of multiple sequences. It forms the distance tree between various sequences belonging to different organisms based on the UPGMA Algorithm (Unweighted Pair Group Method with Arithmetic Mean). To use this application, input the sequences and the labels for the sequences of different organisms in Space Separated format")
 sequ = st.text_input("Enter the sequences in space separated format")
 labe = st.text_input("Enter the labels witth space between the names of different organisms")
