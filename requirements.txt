@@ -4,4 +4,3 @@ Bio
 scipy
 matplotlib
 plotly
-time
